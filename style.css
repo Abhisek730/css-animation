@@ -1,0 +1,33 @@
+.box{
+    width: 70px;
+    height: 200px;
+    margin-top: 1rem;
+        background-color: red;
+   animation: move 3s linear 2s infinite reverse backwards;
+   
+    
+    
+}
+#b1{
+    animation-timing-function: linear;
+}
+#b2{
+    animation-timing-function: ease;
+}
+#b3{
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes move {
+    0%{
+        margin-left: 0px;
+        background-color: royalblue;
+    }
+    50%{
+        background-color: salmon;
+    }
+    100%{
+        margin-left: 1300px;
+        background-color: blue;
+    }
+}
